@@ -11,6 +11,7 @@ import cimg from "../assets/logo/cimg.png";
 import git from "../assets/logo/git-icon.png";
 import vs from "../assets/logo/vs.png";
 import nodeimg from "../assets/logo/node.png";
+import nextjs from "../assets/logo/nextjs.svg"
 
 const SkillsDisplay = ({
   skills = [
@@ -51,6 +52,11 @@ const SkillsDisplay = ({
         {
           name: "Node js",
           image: nodeimg,
+          alt: "Node js",
+        },
+        {
+          name: "Next js",
+          image: nextjs,
           alt: "Node js",
         },
       ],
