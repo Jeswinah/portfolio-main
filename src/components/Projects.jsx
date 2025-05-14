@@ -14,7 +14,7 @@ const ProjectCard = () => {
       title: "Movie database",
       description:
         " MovieDB is a dynamic and responsive movie discovery platform built with Next JS and styled using Tailwind CSS.",
-      tags: ["Next js", "Api", "Tailwind CSS"],
+      tags: ["Next js", "APIs", "Tailwind CSS"],
 
       imageUrl: moviedb,
       onViewProject: () => open("https://jeswin-moviedb.vercel.app/"),
@@ -23,7 +23,7 @@ const ProjectCard = () => {
       title: "Recipe Finder",
       description:
         "Find Delicious Recipes is an innovative tool tailored for food enthusiasts to discover and explore a wide array of exciting and flavorful dishes to try at home.",
-      tags: ["React", "Tailwind CSS"],
+      tags: ["React", "Tailwind CSS", "APIs"],
 
       imageUrl: recipeimg,
       onViewProject: () => open("https://jeswin-recipe-finder.netlify.app/"),
@@ -32,7 +32,7 @@ const ProjectCard = () => {
       title: "Real-Time Weather Tracker",
       description:
         "The real-time weather tracker is an interactive web application developed using ReactJS and styled with TailwindCSS.It allows users to input a location, and the app dynamically fetches and displays real-time weather data.",
-      tags: ["React", "Tailwind CSS"],
+      tags: ["React", "APIs", "Tailwind CSS"],
 
       imageUrl: weatherimg,
       onViewProject: () => open("https://weather-jeswinah.vercel.app/ "),
@@ -119,7 +119,7 @@ const ProjectCard = () => {
                 {project.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="px-3 py-1 text-sm bg-white font-medium text-gray-800 rounded-full"
+                    className="px-3 py-1 text-sm bg-white font-semibold text-gray-700 rounded-full"
                   >
                     {tag}
                   </span>
