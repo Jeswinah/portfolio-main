@@ -1,9 +1,11 @@
 import React from "react";
 
 const Contact = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer className="bg-gradient-to-b from-white to-gray-50">
-      <div id="contact" className="max-w-6xl mx-auto px-4 py-16 mt-14 md:mt-0">
+      <div id="contact" className="max-w-6xl mx-auto px-4 py-14 mt-14 md:mt-0">
         <div className="space-y-8">
           <div className="text-center">
             <h2 className="text-4xl font-bold font-serif mb-4">Get in Touch</h2>
@@ -103,8 +105,10 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="text-center pt-8 border-t border-gray-200">
-          <p className="text-sm text-gray-600">Copyright © 2024 | Jeswin A.H</p>
+        <div className="text-center pt-8 border-t mt-5 md:mt-0 border-gray-200">
+          <p className="text-sm text-gray-600">
+            Copyright © {year} | Jeswin A.H
+          </p>
         </div>
       </div>
     </footer>
