@@ -32,7 +32,6 @@ const SkillsDisplay = ({
           image: jsimg,
           alt: "JavaScript logo",
         },
-
         {
           name: "Tailwind CSS",
           image: tailwind,

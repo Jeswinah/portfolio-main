@@ -119,7 +119,7 @@ const ProjectCard = () => {
                 {project.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="px-3 py-1 text-sm bg-gray-100 text-gray-900 rounded-full"
+                    className="px-3 py-1 text-sm bg-white font-medium text-gray-800 rounded-full"
                   >
                     {tag}
                   </span>
