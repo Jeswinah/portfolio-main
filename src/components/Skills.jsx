@@ -2,7 +2,6 @@ import React from "react";
 import html from "../assets/logo/html.png";
 import cssimg from "../assets/logo/css.png";
 import jsimg from "../assets/logo/js.png";
-import bootstrap from "../assets/logo/icons8-bootstrap.svg";
 import react from "../assets/logo/React.js_logo.png";
 import tailwind from "../assets/logo/Tailwind_CSS_Logo.png";
 import javaimg from "../assets/logo/java.png";
@@ -11,7 +10,7 @@ import cimg from "../assets/logo/cimg.png";
 import git from "../assets/logo/git-icon.png";
 import vs from "../assets/logo/vs.png";
 import nodeimg from "../assets/logo/node.png";
-import nextjs from "../assets/logo/nextjs.svg"
+import nextjs from "../assets/logo/nextjs.svg";
 
 const SkillsDisplay = ({
   skills = [
@@ -34,11 +33,6 @@ const SkillsDisplay = ({
           alt: "JavaScript logo",
         },
 
-        {
-          name: "Bootstrap",
-          image: bootstrap,
-          alt: "bootstrap logo",
-        },
         {
           name: "Tailwind CSS",
           image: tailwind,
