@@ -11,6 +11,7 @@ import git from "../assets/logo/git-icon.png";
 import vs from "../assets/logo/vs.png";
 import nodeimg from "../assets/logo/node.png";
 import nextjs from "../assets/logo/nextjs.svg";
+import mysql from"../assets/logo/mysql.png"
 
 const SkillsDisplay = ({
   skills = [
@@ -52,6 +53,11 @@ const SkillsDisplay = ({
           image: nextjs,
           alt: "Node js",
         },
+        {
+          name: "MySQL",
+          image: mysql,
+          alt: "MySQL",
+        },
       ],
     },
     {
@@ -88,7 +94,7 @@ const SkillsDisplay = ({
 }) => {
   return (
     <>
-      <h1 className="flex justify-center text-4xl mb-10 font-bold font-serif">
+      <h1 className="flex justify-center text-4xl mb-8 font-bold font-serif">
         Skills
       </h1>
       <div className="w-full max-w-4xl mx-auto p-6 space-y-8 h-screen ">
@@ -103,7 +109,7 @@ const SkillsDisplay = ({
                   key={skillIndex}
                   className="flex flex-col items-center group hover:transform hover:scale-105 transition-transform duration-200 lg:mb-8 lg:mt-3 "
                 >
-                  <div className="w-14 h-14 rounded-lg bg-background p-2 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-200 bg-gray-100 ">
+                  <div className="w-14 h-14 rounded-lg bg-background p-2 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-200 bg-gray-200 ">
                     <img
                       src={skill.image}
                       alt={skill.alt}
