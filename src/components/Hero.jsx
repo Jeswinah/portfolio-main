@@ -1,7 +1,7 @@
 import React from "react";
 import proimg from "../assets/programerimg.png";
 import TypingAnimation from "./TypingAnimation";
-import Resume from"../../src/Resume.pdf"
+import Resume from"../../src/My_Resume.pdf"
 const Hero = () => {
   return (
     <div className="hero flex flex-col lg:flex-row items-center px-5 my-14 lg:py-20 lg:mt-5 min-h-full">
