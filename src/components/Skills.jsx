@@ -7,6 +7,7 @@ import tailwind from "../assets/logo/Tailwind_CSS_Logo.png";
 import javaimg from "../assets/logo/java.png";
 import pyimg from "../assets/logo/python-logo.png";
 import cimg from "../assets/logo/cimg.png";
+import cplusimg from "../assets/logo/cplus.png";
 import git from "../assets/logo/git-icon.png";
 import vs from "../assets/logo/vs.png";
 import nodeimg from "../assets/logo/node.png";
@@ -63,15 +64,16 @@ const SkillsDisplay = ({
     {
       category: "Programming Languages & Tools",
       items: [
-        {
-          name: "Python",
-          image: pyimg,
-          alt: "python logo",
-        },
+        
         {
           name: "C",
           image: cimg,
           alt: "C logo",
+        },
+        {
+          name: "C++",
+          image: cplusimg,
+          alt: "C++ logo",
         },
         {
           name: "Java",

@@ -1,5 +1,5 @@
 import React from "react";
-import proimg from "../assets/programerimg.png";
+import proimg from "../assets/programerimg-min.png";
 import TypingAnimation from "./TypingAnimation";
 import Resume from"../../src/My_Resume.pdf"
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
               className="flex  items-center"
             >
               <svg
-                class="fill-current w-4 h-4 mr-2 "
+                className="fill-current w-4 h-4 mr-2 "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
               >
@@ -42,7 +42,7 @@ const Hero = () => {
               Download CV{" "}
             </a>
           </button>
-          <button class="bg-blue-800 hover:bg-gray-400 text-gray-50 font-bold py-3 px-5 rounded flex md:mx-2 ">
+          <button className="bg-blue-800 hover:bg-gray-400 text-gray-50 font-bold py-3 px-5 rounded flex md:mx-2 ">
             <a href="#contact" className="flex  items-center">
               {" "}
               Contact us

@@ -11,13 +11,16 @@ import moviedb from "../assets/projects/moviedb.png";
 const ProjectCard = () => {
   const projects = [
     {
-      title: "Movie database",
+      title: "MovieDB",
       description:
         " MovieDB is a dynamic and responsive movie discovery platform built with Next JS and styled using Tailwind CSS.",
-      tags: ["Next js", "APIs", "Tailwind CSS"],
+      tags: ["React js", "APIs", "Tailwind CSS"],
 
       imageUrl: moviedb,
-      onViewProject: () => open("https://jeswin-moviedb.vercel.app/"),
+      // onViewProject: () => open("https://jeswin-moviedb.vercel.app/"),
+      status: "This project is under maintenance",
+      onViewProject: () => alert("This project is under maintenance"),
+      
     },
     {
       title: "Recipe Finder",
