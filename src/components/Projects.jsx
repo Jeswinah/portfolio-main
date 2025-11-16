@@ -17,9 +17,7 @@ const ProjectCard = () => {
       tags: ["React js", "APIs", "Tailwind CSS"],
 
       imageUrl: moviedb,
-      // onViewProject: () => open("https://jeswin-moviedb.vercel.app/"),
-      status: "This project is under maintenance",
-      onViewProject: () => alert("This project is under maintenance"),
+      onViewProject: () => open("https://moviesapp-jeswin.vercel.app/")
       
     },
     {
