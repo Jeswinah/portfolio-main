@@ -6,7 +6,7 @@ import portfolioimg from "../assets/projects/portfolio.png";
 import calimg from "../assets/projects/calender.png";
 import pinimg from "../assets/projects/pin-new.png";
 import recipeimg from "../assets/projects/recipeimg.png";
-import moviedb from "../assets/projects/moviedb.png";
+import moviedb from "../assets/projects/movieapp.png";
 
 const ProjectCard = () => {
   const projects = [
