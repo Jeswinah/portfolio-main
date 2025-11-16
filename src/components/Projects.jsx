@@ -14,7 +14,7 @@ const ProjectCard = () => {
       title: "MovieDB",
       description:
         " MovieDB is a dynamic and responsive movie discovery platform built with Next JS and styled using Tailwind CSS.",
-      tags: ["React", "Express", "APIs","Authentication"],
+      tags: ["React", "Express", "Rest API"],
 
       imageUrl: moviedb,
       onViewProject: () => open("https://moviesapp-jeswin.vercel.app/")
